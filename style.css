@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #E50914; /* Vermelho Netflix */
+    --secondary-color: #ffffff; /* Branco */
+    --tertiary-color: #9aa0a6;
+    --bg-color: #141414; /* Preto/Cinza escuro Netflix */
+}
+
+body {
+    margin: 0;
+    background: var(--bg-color);
+    color: var(--secondary-color);
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background: var(--bg-color);
+    z-index: 10;
+    border-bottom: 1px solid var(--bg-color);
+    gap: 1rem;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+/* Seletor específico para o campo de busca no cabeçalho */
+.search-container input {
+    padding: 0.375rem 0.75rem;
+    border-radius: 1rem;
+    border: 1px solid var(--tertiary-color);
+    background: var(--bg-color);
+    font-family: inherit;
+    font-size: 1.5rem;
+    transition: all 0.2s ease;
+    width: 30rem;
+    color: var(--secondary-color);
+    margin-right: .5rem;
+}
+
+.search-container input::placeholder {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--tertiary-color);
+}
+
+.search-container input:focus {
+    outline: none;
+    border-color: var(--bg-color);
+    box-shadow: 0 0 0 0.1rem var(--tertiary-color);
+}
+
+#botao-busca {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1rem;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--bg-color);
+}
+
+#botao-busca:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 0 0.1rem var(--primary-color);
+}
+
+#botao-busca:active {
+    transform: scale(0.98);
+}
+
+.card-container {
+    margin: 0 auto;
+    margin-top: 2rem;
+    flex-grow: 1;
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 5rem; /* Ensure footer spacing is maintained */
+}
+
+#card-grid {
+    max-width: 80rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.status-message {
+    text-align: center;
+    width: 100%;
+    color: var(--tertiary-color);
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+article {
+    background: #202020;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-bottom: none;
+    position: relative; /* Necessário para a sobreposição dos detalhes */
+    display: flex; /* Garante que a imagem preencha o card */
+    aspect-ratio: 2 / 3; /* Proporção de pôster (largura / altura) */
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    border-bottom-color: transparent;
+}
+
+/* Mostra os detalhes quando o mouse está sobre o card */
+article:hover .card-details {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+article img {
+    width: 100%;
+    height: 100%; /* Faz a imagem preencher o card verticalmente */
+    object-fit: cover;
+}
+
+.card-details {
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 25%, transparent);
+    padding: 2.5rem 1rem 1rem 1rem;
+    opacity: 0; /* Esconde os detalhes por padrão */
+    transform: translateY(20%); /* Efeito de deslizar para cima */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+article h2 {
+    font-weight: 600;
+    border-bottom: none;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+article p {
+    font-size: 0.9rem;
+    color: var(--tertiary-color);
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo para o link "Saiba mais" */
+.card-details a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    color: var(--tertiary-color);
+    background-color: var(--bg-color);
+    padding: 15px 20px;
+    border-top: 1px solid #3c4043;
+    font-size: 0.8rem;
+}
+
+.footer-location {
+    color: #9aa0a6;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Escondido por padrão */
+    opacity: 0.8;
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: 100;
+}
+
+#back-to-top:hover {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    header h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .search-container input {
+        width: 90vw;
+        font-size: 1.2rem;
+    }
+
+    .card-container {
+        padding: 1rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1rem;
+        max-width: 70%;
+        word-wrap: break-word;
+    }
+
+    article h2 {
+        font-size: 1.3rem;
+    }
+
+    /* Seletor corrigido para não afetar o layout inteiro */
+    .search-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer {
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes, séries, e muito mais</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css?v=1.1">
+</head>
+<body>
+    <header>
+        <h1>Filmes, séries, e muito mais</h1>
+        <form class="search-container" role="search">
+            <input type="text" id="input-busca" placeholder="O que deseja assistir hoje?">
+            <button id="botao-busca">Buscar</button>
+        </form>
+    </header>
+
+    <main class="card-container">
+        <div id="card-grid" aria-live="polite"></div>
+    </main>
+
+    <button id="back-to-top" title="Voltar ao topo" aria-label="Voltar ao topo">↑</button>
+
+    <footer class="footer">
+        <ul class="footer-links">
+            <li><a href="https://github.com/almmaia" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/alan-maia-841a68227/" target="_blank">Linkedin</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js?v=1.2" defer></script>
+</body>
+</html>

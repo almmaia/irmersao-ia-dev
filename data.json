@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "nome": "Round 6",
+    "descricao": "Centenas de jogadores falidos aceitam um estranho convite para um jogo de sobrevivência...",
+    "ano": 2021,
+    "tipo": "série",
+    "link": "https://www.netflix.com/br/title/81040344",
+    "imagem": "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg"
+  },
+  {
+    "id": 2,
+    "nome": "Arcane",
+    "descricao": "Em meio ao conflito entre as cidades de Piltover e Zaun, duas irmãs lutam em lados opostos de uma guerra.",
+    "ano": 2021,
+    "tipo": "anime",
+    "link": "https://www.netflix.com/br/title/81435684",
+    "imagem": "https://image.tmdb.org/t/p/w500/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "La Casa de Papel",
+    "descricao": "Oito ladrões se trancam na Casa da Moeda da Espanha com reféns enquanto um gênio do crime manipula a polícia...",
+    "ano": 2017,
+    "tipo": "série",
+    "link": "https://www.netflix.com/br/title/80192098",
+    "imagem": "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "Blade Runner 2049",
+    "descricao": "A descoberta de um segredo há muito enterrado por um novo blade runner o leva a procurar o antigo blade runner Rick Deckard, que está desaparecido há 30 anos.",
+    "ano": 2017,
+    "tipo": "filme",
+    "link": "https://www.imdb.com/title/tt1856101/",
+    "imagem": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "Dark",
+    "descricao": "Uma saga familiar com um toque sobrenatural, 'Dark' se passa em uma cidade alemã, onde o desaparecimento de duas crianças expõe as relações fraturadas, vidas duplas e o passado sombrio de quatro famílias.",
+    "ano": 2017,
+    "tipo": "série",
+    "link": "https://www.netflix.com/br/title/80100172",
+    "imagem": "https://image.tmdb.org/t/p/w500/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Stranger Things",
+    "descricao": "Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.",
+    "ano": 2016,
+    "tipo": "série",
+    "link": "https://www.netflix.com/title/80057281",
+    "imagem": "https://image.tmdb.org/t/p/w500/49WJfeN0moxb9IPfGn8AIqMGskD.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Attack on Titan",
+    "descricao": "Quando os Titãs devoradores de homens reaparecem, a humanidade se vê à beira da extinção. A única esperança são os jovens soldados da Divisão de Reconhecimento.",
+    "ano": 2013,
+    "tipo": "anime",
+    "link": "https://www.crunchyroll.com/pt-br/series/GR751KNZY/attack-on-titan",
+    "imagem": "https://image.tmdb.org/t/p/w500/hTP1DtLGFamjfu8WqjnuQdP1n4i.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Game of Thrones",
+    "descricao": "Nove famílias nobres lutam pelo controle da mítica terra de Westeros, enquanto um antigo inimigo retorna após estar adormecido por milênios.",
+    "ano": 2011,
+    "tipo": "série",
+    "link": "https://www.hbo.com/game-of-thrones",
+    "imagem": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Breaking Bad",
+    "descricao": "Um professor de química do ensino médio com câncer terminal se junta a um ex-aluno para produzir e vender metanfetamina.",
+    "ano": 2008,
+    "tipo": "série",
+    "link": "https://www.netflix.com/br/title/70143836",
+    "imagem": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg"
+  },
+  {
+    "id": 10,
+    "nome": "Batman: O Cavaleiro das Trevas",
+    "descricao": "Quando a ameaça conhecida como Coringa emerge de seu passado misterioso, ele causa estragos e caos nas pessoas de Gotham.",
+    "ano": 2008,
+    "tipo": "filme",
+    "link": "https://www.imdb.com/title/tt0468569/",
+    "imagem": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+  },
+  {
+    "id": 11,
+    "nome": "Naruto Shippuden",
+    "descricao": "Naruto Uzumaki, é um shinobi barulhento, hiperativo e adolescente que constantemente procura por aprovação e reconhecimento, bem como se tornar o Hokage.",
+    "ano": 2007,
+    "tipo": "anime",
+    "link": "https://www.crunchyroll.com/pt-br/series/GY9PJ5KWR/naruto-shippuden",
+    "imagem": "https://image.tmdb.org/t/p/w500/zAYRe2bJxpWTVrwwmBc00VFkAf4.jpg"
+  },
+  {
+    "id": 12,
+    "nome": "O Poderoso Chefão",
+    "descricao": "O patriarca de uma dinastia do crime organizado transfere o controle de seu império clandestino para seu filho relutante.",
+    "ano": 1972,
+    "tipo": "filme",
+    "link": "https://www.imdb.com/title/tt0068646/",
+    "imagem": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+  },
+  {
+    "id": 13,
+    "nome": "Friends",
+    "descricao": "Segue as vidas pessoais e profissionais de seis amigos de vinte e poucos anos que vivem em Manhattan.",
+    "ano": 1994,
+    "tipo": "série",
+    "link": "https://www.imdb.com/title/tt0108778/",
+    "imagem": "https://image.tmdb.org/t/p/w500/f496cm9enuEsZkSPzCwnTESEK5s.jpg"
+  },
+  {
+    "id": 14,
+    "nome": "Pulp Fiction",
+    "descricao": "As vidas de dois assassinos da máfia, um boxeador, a esposa de um gângster e um par de bandidos se entrelaçam em quatro contos de violência e redenção.",
+    "ano": 1994,
+    "tipo": "filme",
+    "link": "https://www.imdb.com/title/tt0110912/",
+    "imagem": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg"
+  },
+  {
+    "id": 15,
+    "nome": "Forrest Gump",
+    "descricao": "Um homem simples com um QI baixo, mas com boas intenções, testemunha e influencia acidentalmente vários eventos históricos definidores nos Estados Unidos do século XX.",
+    "ano": 1994,
+    "tipo": "filme",
+    "link": "https://www.imdb.com/title/tt0109830/",
+    "imagem": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg"
+  }
+]
