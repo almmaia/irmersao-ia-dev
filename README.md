@@ -1,5 +1,3 @@
- Projeto: Base de Conhecimento de Filmes
-
 Este projeto foi desenvolvido para criar uma base de conhecimento de filmes utilizando HTML, CSS, JavaScript, JSON, Node.js e Inteligência Artificial. O objetivo é aprender e aplicar, na prática, os fundamentos do desenvolvimento web e a integração de ferramentas modernas para gerar, organizar e exibir informações de forma dinâmica.
 
 Sobre o Projeto
@@ -44,5 +42,3 @@ O projeto resultou em uma aplicação simples, clara e funcional, capaz de exibi
 tos, já que combina tecnologia essencial, lógica de programação, organização de dados e integração com inteligência artificial.
 
 link do projeto: https://almmaia.github.io/irmersao-ia-dev/
-
-Se quiser, posso deixar ainda mais curto, ainda mais direto ou com tom mais profissional. Quer alguma dessas versões?
